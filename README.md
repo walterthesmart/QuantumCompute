@@ -61,8 +61,8 @@ QCN is built on Stacks blockchain using Clarity smart contracts and consists of:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/quantum-compute-network.git
-cd quantum-compute-network
+git clone https://github.com/walterthesmart/QuantumCompute.git
+cd QuantumCompute
 ```
 
 2. Install dependencies:
@@ -70,15 +70,14 @@ cd quantum-compute-network
 npm install
 ```
 
-3. Set up Clarinet for local development:
+3. Test the smart contracts:
 ```bash
-clarinet new
-cp contracts/* ./contracts/
+npm test
 ```
 
-4. Test the smart contracts:
+4. Check contract syntax:
 ```bash
-clarinet test
+clarinet check
 ```
 
 ### Deployment
@@ -169,5 +168,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- Project Link: [https://github.com/yourusername/quantum-compute-network](https://github.com/yourusername/quantum-compute-network)
-- Website: [https://quantumcomputenetwork.org](https://quantumcomputenetwork.org)
+- Project Link: [https://github.com/walterthesmart/QuantumCompute](https://github.com/walterthesmart/QuantumCompute)

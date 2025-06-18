@@ -5,8 +5,8 @@ authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
+[contracts.quantum-compute-marketplace]
+path = "contracts/quantum-compute-marketplace.clar"
 
 [repl.analysis]
 passes = ["check_checker"]
